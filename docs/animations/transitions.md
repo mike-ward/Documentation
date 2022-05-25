@@ -19,7 +19,7 @@ Transitions in Avalonia are also heavily inspired by CSS Animations. They listen
     <Rectangle Classes="red">
         <Rectangle.Transitions>
             <Transitions>
-                <DoubleTransition Property="Opacity" Duration="0:0:0.2"/>
+                <DoubleTransition Property="Opacity" Duration="0:0:2"/>
             </Transitions>
         </Rectangle.Transitions>
     </Rectangle>
@@ -41,7 +41,7 @@ Transitions can also be defined in any style by using a `Setter` with `Transitio
             <Setter Property="Opacity" Value="0.5"/>
             <Setter Property="Transitions">
                 <Transitions>
-                    <DoubleTransition Property="Opacity" Duration="0:0:0.2"/>
+                    <DoubleTransition Property="Opacity" Duration="0:0:2"/>
                 </Transitions>
             </Setter>
         </Style>
